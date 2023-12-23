@@ -9,9 +9,9 @@ Python ≥ 3.6
 Install libraries:  ``` pip install -r requirements.txt  ```
 
 
-## DATA: COCO
+## DATA: COCO2017
 ```
-cd datasets/coco/
+cd datasets/
 
 wget http://images.cocodataset.org/zips/train2017.zip
 wget http://images.cocodataset.org/zips/val2017.zip
