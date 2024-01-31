@@ -32,14 +32,17 @@ YAML configure management. See configs/ssd300.yaml for detail.
 
 
 ## Training
-``` # Run python train.py --cfg config/ssd300.yaml --logdir <LOG_DIRECTORY> ```
+``` 
+# Run python train.py --cfg config/ssd300.yaml --logdir <LOG_DIRECTORY>
+```
 
 <LOG_DIRECTORY> is a path for the will-be-trained log file.
 
 An interrupted training can be resumed by:
 ```
 # Run train.py with --resume to restore the latest saved checkpoint file in the log directory.
-python train.py --cfg config/ssd300.yaml --logdir <LOG_DIRECTORY> --resume```
+python train.py --cfg config/ssd300.yaml --logdir <LOG_DIRECTORY> --resume
+```
 
 
 ## Evaluation
