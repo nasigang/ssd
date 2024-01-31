@@ -51,4 +51,5 @@ python coco_eval.py --cfg <CONFIG_FILE> --pth <LOG_DIRECTORY>/best.pth --coco_di
 ```
 
 ## Result
+[ssd300_best.pth](https://drive.google.com/file/d/1bxvhYLvpAQfrrLj3o5iwC8UO753oy8ZY/view?usp=sharing)
 ![demo]()
